@@ -6,7 +6,7 @@
    #已支持IOS双京东账号, Node.js支持N个京东账号 
  #脚本兼容: QuantumultX, Surge, Loon, 小火箭，JSBox, Node.js 
 
-name: 提交云端互助☁
+name: 提交云端互助👆
 
 on:
     # push:
