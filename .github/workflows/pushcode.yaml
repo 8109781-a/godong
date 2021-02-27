@@ -29,11 +29,10 @@ jobs:
               run: |
                   npm install
             - name: "运行 【提交互助码】" 
-             run: | 
+              run: | 
                  node Ponysitters_Club_Season.js 
-             env: 
-                JD_COOKIE: ${{ secrets.JD_COOKIE }} 
-                  JD_COOKIE: ${{ secrets.JD_COOKIE }}
+              env: 
+                  JD_COOKIE: ${{ secrets.JD_COOKIE }} 
                   SYNCURL: /The.Flash/The.Flash/jd_get_share_code.js
                   SCKEY: ${{ secrets.SCKEY }}
                   BARK_PUSH: ${{ secrets.BARK_PUSH }}
