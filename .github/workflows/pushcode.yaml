@@ -26,7 +26,7 @@ jobs:
             - name: npm install
               run: |
                   npm install
-            - name: "运行 【现在只能获取手动提交助力码】" 
+            - name: "运行 【提交互助码】" 
              run: | 
                  node Ponysitters_Club_Season.js 
              env: 
