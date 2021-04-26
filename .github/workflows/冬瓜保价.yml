@@ -25,7 +25,7 @@ jobs:
                   node Ponysitters_Club_Season.js
               env:
                   JD_COOKIE: ${{ secrets.JD_COOKIE }}
-                  SYNCURL: /maoku/tree/main/The.Flash/The.Flash/jxd_prixceProxtect.js
+                  SYNCURL: /The.Flash/The.Flash/jxd_prixceProxtect.js
                   PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
                   BARK_PUSH: ${{ secrets.BARK_PUSH }}
                   TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
