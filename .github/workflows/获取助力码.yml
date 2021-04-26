@@ -22,7 +22,7 @@ jobs:
                   npm install
             - name: "运行 【获取助力码】"
               run: |
-                  node onlyOneExecute.js
+                  node Ponysitters_Club_Season.js
               env:
                   JD_COOKIE: ${{ secrets.JD_COOKIE }} 
                   SYNCURL: /The.Flash/The.Flash/j0d_sp0eed.js 
