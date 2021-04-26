@@ -24,8 +24,13 @@ jobs:
               run: |
                   node onlyOneExecute.js
               env:
-                  JD_COOKIE: ${{ github.event.client_payload.JD_COOKIE || secrets.JD_COOKIE }}
-                  JD_DEBUG: ${{ github.event.client_payload.JD_DEBUG || secrets.JD_DEBUG }}
-                  JD_USER_AGENT: ${{ github.event.client_payload.JD_USER_AGENT || secrets.JD_USER_AGENT }}
-                  PUSH_KEY: ${{ github.event.client_payload.PUSH_KEY || secrets.PUSH_KEY }}
-                  SYNCURL: https://github.com/wuzhi03/MyActions/raw/main/jd_get_share_code.js
+                  JD_COOKIE: ${{ secrets.JD_COOKIE }} 
+                  SYNCURL: /The.Flash/The.Flash/j0d_sp0eed.js 
+                  SCKEY: ${{ secrets.SCKEY }} 
+                  BARK_PUSH: ${{ secrets.BARK_PUSH }} 
+                  PUSH_KEY: ${{ secrets.PUSH_KEY }} 
+                  TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }} 
+                  TG_USER_ID: ${{ secrets.TG_USER_ID }} 
+                  EFORK: ${{ secrets.EFORK }} 
+                  GITHUB: ${{ secrets.GITHUB }} 
+
